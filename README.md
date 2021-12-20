@@ -1,4 +1,4 @@
-Subdomain-Enumeration (powered by findomain)
+Subdomain-Enumeration
 
 Installation:
 
