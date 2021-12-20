@@ -1,4 +1,4 @@
-Subdomain-Enumeration (powered by subfinder)
+Subdomain-Enumeration (powered by findomain)
 
 Installation:
 ./setup.sh
