@@ -1,7 +1,5 @@
 #!/bin/bash
-#
-# bash script to install SubEnum's dependencies
-#
+
 
 GOlang() {
         printf "                                \r"
