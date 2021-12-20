@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# bash script to install Subdomain-Enumumeration dependencies 
+# bash script to install SubEnum's dependencies 
 #
 
 GOlang() {
