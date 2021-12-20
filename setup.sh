@@ -4,7 +4,6 @@
 #
 
 GOlang() {
-	printf "                                \r"
 	sys=$(uname -m)
 	LATEST=$(curl -s 'https://go.dev/VERSION?m=text')
 	[ $sys == "x86_64" ] && wget https://golang.org/dl/$LATEST.linux-amd64.tar.gz -O golang.tar.gz &>/dev/null || wget https://golang.org/dl/$LATEST.linux-386.tar.gz -O golang.tar.gz &>/dev/null
@@ -17,7 +16,6 @@ GOlang() {
 }
 
 Findomain() {
-	printf "                                \r"
 	wget https://github.com/Edu4rdSHL/findomain/releases/latest/download/findomain-linux &>/dev/null
 	chmod +x findomain-linux
 	./findomain-linux -h &>/dev/null && { sudo mv findomain-linux /usr/local/bin/findomain; printf "[+] Findomain Installed !.\n"; } || printf "[!] Install Findomain manually: https://github.com/Findomain/Findomain/blob/master/docs/INSTALLATION.md\n"
