@@ -29,11 +29,7 @@ hash subfinder 2>/dev/null && printf "[!] subfinder is already installed.\n" || 
 
 list=(
 	go
-	findomain
 	subfinder
-	amass
-	assetfinder
-	httprobe
 	)
 
 r="\e[31m"
