@@ -4,4 +4,4 @@ Installation:
 ./setup.sh
 
 Usage:
-./subdomain.sh
+./subdomain.sh domain.com
