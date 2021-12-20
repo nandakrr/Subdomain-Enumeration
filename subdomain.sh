@@ -2,4 +2,4 @@
 
 url=$1
 
-subfinder -d $1 | tee $1.txt
+findomain -t $1 | tee $1.txt
